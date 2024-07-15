@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+
+#left {
+    height: 100%;
+    width: 40%;
+    position: relative;
+    background-color: wheat;
+}
+
+#left h1 {
+    padding-top: 20%;
+    font-size: 7em;
+    padding-bottom: 30px;
+}
+
+#right {
+    padding-top: 10%;
+    height: 90%;
+    width: 38%;
+    position: relative;
+    background-color: gainsboro;
+    /* background-color: blueviolet; */
+}
+
+#left h3 {
+    padding: 5px 2px;
+}
+
+#left h5 {
+    font-weight: 200;
+    font-size: 14px;
+    display: inline-block;
+    width: 300px;
+}
+
+#block {
+    padding: 4px 2px;
+    width: 60px;
+    height: 25px;
+    border: 2px solid black;
+    font-size: 10px;
+    border-radius: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#one, #two {
+    margin: 3px;
+    border: 1px solid black;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+#right-top{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#right-top img {
+    width: 250px;
+    height: 500px;
+}
+
+#right-top h5 {
+    padding: 10px;
+    font-size: 16px;
+}
+#right-top span{
+    color: gold;
+}
+
+
+
+#right img{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+
+#black-gola{
+    padding: 15px;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(30, 25, 47);
+    color: white;
+    border-radius: 50%;
+    right: 0%;
+    top:60%;
+    align-items: center;
+
+}
+
+#black-gola p{
+    font: 1em sans-serif;
+}
+
+#rotated{
+    padding-right:25px;
+
+    position: absolute;
+    bottom: 0;
+    rotate: -90deg;
+    transform-origin: 0 0 ;
+    font-size: 29px;
+    font-weight: 200;
+    right: 30;
+}
